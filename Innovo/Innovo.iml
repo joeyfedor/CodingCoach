@@ -157,7 +157,6 @@
     <orderEntry type="library" name="Gradle: android.arch.lifecycle:livedata-1.1.1" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.core:common:1.1.1@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:versionedparcelable-28.0.0" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:C.\Users\Joey\Desktop\old\joeyf\OneDrive\Documents\StudioProjects\java\MandJApp\CodingCoach\Innovo\libs\bsh.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-media-compat-28.0.0" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.core:runtime-1.1.1" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:print-28.0.0" level="project" />
@@ -171,6 +170,7 @@
     <orderEntry type="library" name="Gradle: com.android.support:support-compat-28.0.0" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:animated-vector-drawable-28.0.0" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:appcompat-v7-28.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:C.\Users\Joey\CodingCoach\Innovo\libs\bsh.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: de.hdodenhof:circleimageview-1.2.1" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.lifecycle:runtime-1.1.1" level="project" />
   </component>

@@ -1,0 +1,32 @@
+Learn has been rewritten to allow easier addition of puzzles.
+
+first 3 files are needed to make a new topic in learn all located in values.
+    topics.xml
+    subTopics.xml
+    lessons.xml
+
+topics.xml consists of 2 arrays the topics array and the descriptors array
+
+    Topics - the topics of each puzzle
+    descriptors - a description of each puzzle that shows up in the listView
+
+    To add a new topic simply add the name of the topic to the Topics array and you must also add a
+    descriptor to.
+
+subtopics.xml consists of multiple arrays the primary array (named subtopics) and the subtopic array
+ for each topic
+
+    subTopics - A TypedArray that tells the location of subtopics
+    subarrays (sb0) - The subtopic of the current topic
+
+    To add a new subtopic first create a subarray with anyName and add each subtopic to the array,
+    lastly add @array/NameOfSubArray to the subTopics array
+
+lessons.xml consists of multiple arrays the primary array (named lessons) and the lesson array
+for each topic
+
+    lessons - A TypedArray that tells the location of lessons
+    lesson (l0) - The lesson of the current subtopic
+
+    To add a new lesson first create a subarray with anyName and add each lesson to the array,
+    lastly add @array/NameOfLesson to the lessons array
