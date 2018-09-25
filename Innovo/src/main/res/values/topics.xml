@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="topics">
+        <item>Commands</item>
+        <item>Comments</item>
+        <item>Data Types: Integers</item>
+        <item>Data Types: Floating-points</item>
+        <item>Initializing Variables</item>
+    </string-array>
+
+    <string-array name="Descriptors">
+        <item>A lesson on the most basic elements of java, and a
+            look at how they make a program function.</item>
+        <item>A look at the two types of comments, and the uses of each one.</item>
+        <item>The first look into Data types starting with the four integer types: int, short, long, and byte.</item>
+        <item>Two data types with different uses in mind, these data types handle fractional numbers!</item>
+        <item>A look at how to initialize and use the integer and floating data types</item>
+    </string-array>
+
+    <string-array name="prompts">
+        <item>Try writing - System.out.print(“Hello World”) - below and see what happens!</item>
+        <item>Try using a comment in your code!</item>
+        <item></item>
+        <item></item>
+        <item>Try initializing an int and printing it using - System.out.print();</item>
+    </string-array>
+</resources>

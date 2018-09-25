@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linlay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mandj.appbuildin.codingcoach.innovo.PuzzleTabs">
+
+    <include layout="@layout/layout_toolbar_noshadow" />
+
+
+    <mandj.appbuildin.codingcoach.innovo.SlidingTabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/toolbar_dropshadow" />
+
+    <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        tools:context="mandj.appbuildin.codingcoach.innovo.Study.TabbedListView.PuzzleTabs">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

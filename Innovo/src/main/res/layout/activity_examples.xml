@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mandj.appbuildin.codingcoach.innovo.Study.Runner.Examples.examples">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/linToolBar"
+        android:scrollbars="vertical"
+        android:animationCache="false"
+        android:fillViewport="true"/>
+
+</RelativeLayout>

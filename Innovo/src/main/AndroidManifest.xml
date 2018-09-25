@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mandj.appbuildin.codingcoach.innovo" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <!--
+    <uses-sdk
+        tools:node="replace" />
+    -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcherwhite"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.gms.games.APP_ID"
+            android:value="@string/app_id" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Study.Runner.Help.Help"
+            android:label="@string/title_activity_help"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" />
+        <activity
+            android:name=".Study.TabbedListView.PuzzleTabs"
+            android:label="@string/title_activity_puzzle_tabs"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mandj.appbuildin.codingcoach.innovo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Study.Runner.PuzzleRunner"
+            android:label="@string/title_activity_puzzle_runner"
+            android:parentActivityName=".Study.TabbedListView.PuzzleTabs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mandj.appbuildin.codingcoach.innovo.Study.TabbedListView.PuzzleTabs" />
+        </activity>
+        <activity
+            android:name=".Study.Runner.Help.HelpSwipe"
+            android:label="@string/title_activity_help_swipe"
+            android:parentActivityName=".MainActivity"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mandj.appbuildin.codingcoach.innovo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mandj.appbuildin.codingcoach.innovo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Learn.Learn"
+            android:label="@string/title_activity_learn" />
+        <activity
+            android:name=".Learn.LearnSpinner"
+            android:label="@string/title_activity_learn_spinner"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mandj.appbuildin.codingcoach.innovo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Feedback"
+            android:label="@string/title_activity_feedback"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mandj.appbuildin.codingcoach.innovo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Study.Runner.Examples.examples"
+            android:label="@string/title_activity_examples"
+            android:parentActivityName=".Study.Runner.PuzzleRunner" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mandj.appbuildin.codingcoach.innovo.Study.Runner.PuzzleRunner" />
+        </activity>
+        <activity
+            android:name=".Learn.LearnRunner"
+            android:label="@string/title_activity_learn_runner"
+            android:parentActivityName=".Learn.Learn" >
+        </activity>
+        <activity
+            android:name=".Reference"
+            android:label="@string/title_activity_reference"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mandj.appbuildin.codingcoach.innovo.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

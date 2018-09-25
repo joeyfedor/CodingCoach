@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="5289e799a43a64c4137d109bf992e10a2f952aa3">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-9.0.0_5bc989389442f2257ee1c4eae9f4bbc4f79c040c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="c11cf7a7a6e5adf8fa564303a11dbc351fc11b7c">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-9.0.0_36f8492c38f932061017c7b5150618b2124f14bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.0.0_5f3c9994457050b0a56866a0292888046df1ceff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_70636715aab98a65a31b4484bfd88d95bee932e4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="d96f9f3ef66494d1231304cafd28c962dda80dea">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-9.0.0_3ce3a3964e7615a8403216caea180952fb946413\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="817b9101192f2fd6dc0fd8cd522d8f4a1a75fcdc">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-9.0.0_2e4c0ec86dcd83b3d1ac3269a1077e5c64f36d9f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.0.0_0f4d84d7ff5d6372eee73566d25de97a7c61f3c1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="d7002ed92a3c46c6a89a786877ecf7978a4f0459">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-9.0.0_679fdcabe248298fee1d1dae51138aae2e1da0ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="294d49a66cc1238d9f7fd352136a45622fa98c0f">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-9.0.0_e6baccd8fd26a522b73bdb602515b67bd60bdb28\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="79e4b41db41d4dbbf364c7bd6aaeee5b876c9d8b">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-9.0.0_abb5a1ea529b4072b300db88c52b1e313a5c6959\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="ef5c5c2afbd174d55cf1cfcac7d0346cbc4c1322">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.0.0_3dc50816561bf4451223c27b9fffa150f977a822\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="e595f98f8c525201dccd119f43ad1ddacd4c48d6">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-9.0.0_03de780227bab5a58f403802b017086c11a1b2d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_32b27ebbee09537cd3520299e5956ab5edb165fd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="101d2b5a6ef10d873294be79dac6f47d4ac82ec0">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_22c026b89868ba8b1917d74c89a3fe740656cf7f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.0.0_22e9000fb8c43168295dda425fbea9cccef32452\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="6e933bed525b5a024d1a1eb48268cab4ed2be96a">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_81c364b67215751f4f66bb9fb26fef23afc21b3f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="f4e85eafa876cd7d7641244867dac3f88d71e866">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.0.0_fb7139f42864867162fa1fff5d8bb36bd9c4a5f2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="2c5bc0ebbe69c9fab587c2216b36ec44ab8f0704">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-9.0.0_bc803131b68d4e5757699079bb78f7fa3d265fb9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_7c64a44eba593a0af7e9d1ff52cf6ce470b1c22e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="373cd65725af2781d100ddc193c7d3f14464a774">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-9.0.0_ebb4ce5f18e0f6203355dfb6e7a0f8dda8c29d55\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="32a5a566ae197603d0bed3e6d1d275f6a771564e">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.0.0_7e232c856478c270c2ca87cce87b5c3e9b0a5d61\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="7e467a973b749c6390a5991c9a8edbde96fc10c9">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-9.0.0_a9485a4fd95c6b49916f08479190458c14c330b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.4.0_4a5ae3e374bce45093357f141a43e5f4522252f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_c91d1904d40fecbb14784f9cc9d128aa3b32a539\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="005786793d72c6deacbbbfd38177ed58e1aa6653">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-9.0.0_0412978eabb203362669a97db69a15833b91b1a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="0facc6fc326f2406f4bb9b02f442994c5ce6a403">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-9.0.0_c43f0da906d68dcbe38a0d21c8e73c9e74ac0e72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="59cca9b91688dc2467754d36793b3d23bebd21a9">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-9.0.0_7d0527b713a8bfc07673cb8b7be0354e2b3e8bc6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="7a23185c9b1c100e7d1a32275017e4712e31c796">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-9.0.0_5a5230ca4ab399d0a2e6fa3b1c91950bfaf62797\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="4b868b833b0887aa48c4e581558eef4f1196f6a2">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\de.hdodenhof-circleimageview-1.2.1_f35659e540a2004f56727217b228018ce23e7f25\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-23.0.0_33550fbeba14c3f2d5e52472aaeb4adb155f3dfb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="70ddab48594608953b20164b82f1f890a9a8174a">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.0.0_6b455bb9166f9e53b962b95b4aa54c137f4c8e20\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="69472e334350cafbf442776da05c9a04955252fb">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-9.0.0_1f488753e59bc19c9d2a1fe3da28578e644f2359\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="ed16ff19f0a9515604a0f08104ca0317b82e29e3">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-9.0.0_5f0e75ee3f7a734abcc174445c05fb41346b166c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.0.0_0807b13e9f7e004be12155c2e433265f50108b06\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="67a7d712de3e7d025f4efdcec1da183f764bdbab">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-9.0.0_b84367fb1b6ad10e4a0b567a1e1766e414c4c77b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_a9490b1490e51d9b166d830f2549580a40b651f7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="24536a7b97926a9c155c88425da6875adeb11b51">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.0.0_31d794165dd8fdecb34a80ea4a70c5abed71bcb4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="4caf75b2cfb7ec6e80a57d0ee64fc102ad3578b8">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-9.0.0_0f4fe7ba809cba09b055686096387e6a2bb5db6a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="b8bedab61b3b5238cd9a07d3b04449d7fecdbc3b">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-9.0.0_b07c5eb4f2bb4e282fbf89196152a50a5b98e592\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="2cb29455028e92e024bbad0d41c6ec772f2433d1">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-9.0.0_a17aa07d28359b569f396e17925f4ba75d0cebf7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="379d1834afa3c08f43be23a23b103053537b65b5">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-9.0.0_c5b254deef7c540af856e7389ff5fda5a48102d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="5f0f6913a208a126269aaa68004ed0329a832c5b">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.0.0_a209d96f94980cbd1a5563f65aa72fe6cb5be16d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="a819aae4f0c711e50b4fd633922a3c1a176cb51e">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-9.0.0_4ec92770cbafa7b80afdf6c8cc5442b248dabf71\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.firebase\firebase-config\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="ebfde1a055aea400df77584a68aa60609f618bed">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-9.0.0_a8127102de3e91c45c8f1222d86a9caa73c9bcdd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="7da84426d876216ed4cdddd85e739be5ecabdd04">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-9.0.0_52f9b0746414d2e32ee66b0d42fc8a86f2f0ab43\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.android.support\support-v13\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="be09545b7e6ff322c7286d2e80bed3b75b76c529">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_879d3d4f1bb33f6c941359cbb7248939b3f7bd4f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.android.support\support-v13\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="2bf893856577f5038c0b8007a43fda3b3c5beb23">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v13-23.4.0_005f59317914adc0296a444d5da2de07a8d8887d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.0.0_f225b4ac9e72ce58677dd983b907be5a3fbcceed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="4431efe5d0f67fab36a698dde725946b33a6bf4a">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-9.0.0_d59a8ad73d1fb7493e0465461c0d567e2b19994b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="8126914f5bc372a33e27ea90f02412c32468ce8a">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-9.0.0_4e89e3db1629147c6abf44103f686bd32a93c7e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="2f7bd8cc7519d5231aa8d2ae8e905d3f602bd491">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-9.0.0_d784839d8fa8fc91b099bdfa726e7f94298f08fb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_59e2e1261868fa11e0a797e2746a75c9f910e908\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\libs\bsh.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="ed8a3e402b4f3603afc7c3e863615b053dc73e0c">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\2\bsh_803dae98d699a4f097c8fcc2bd7c0ba1cb8c4c1e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="733964f04c339e425439545b1d172c23b53f8c13">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-9.0.0_a199441f194e8757533a20c629fe8f2d81472a72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.0.0_ff64324c95bcb40c05145842c68a5e87dac09e81\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_4597c666a5483fe1acd2582aebb6fc3f003f8e27\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_34c460dd5b07165e50c87f2a35388f68cd1c5270\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="184428c29b2a4b220cd44284d515db5d8cb5fc76">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-9.0.0_19bc99fe67b0e2f8d243d3699624b297699709c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
+        <dex dex="C:\Users\joeyf\StudioProjects\java\MandJApp\CodingCoach\Innovo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.0.0_263dba5e2281bfe9a73faf73b175b31312b68c97\classes.dex" />
+    </item>
+
+</items>

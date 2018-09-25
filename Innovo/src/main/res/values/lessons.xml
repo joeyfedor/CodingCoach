@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- This is a typed Array, the lessons array holds references to the other arrays
+         When adding one add the String array and add a @array/ArrayName to the subtopics
+         array-->
+
+    <array name="lessons">
+        <item>@array/l0</item>
+        <item>@array/l1</item>
+        <item>@array/l2</item>
+        <item>@array/l3</item>
+        <item>@array/l4</item>
+
+    </array>
+
+    <string-array name="l0">
+        <item>A Command is a set of instructions that tells
+            the computer what to do. The most popular command
+            for learning in java is “System.out.print(“Hello World”)"</item>
+    </string-array>
+
+    <string-array name="l1">
+        <item>In java there are two types of comments, a single-lined comment "//", and
+            a multi-lined comment "/* */". Comments are not run in the Java program</item>
+        <item>A single-lined comment "//" is used to comment out everything in the line beginning
+            after the symbols</item>
+        <item>A multi-lined comment "/* Commented out characters */" will disregard all characters
+            between the two delimiters.</item>
+    </string-array>
+
+    <string-array name="l2">
+        <item>Java has four types of integers each with a similar, yet different purpose</item>
+        <item>The int is the most commonly used integer type of the four, however it has limitations.
+            It is limited by its size constraints of -2,147,483,648 to 2,147,483,647. The int integer
+            type takes 4 bytes of storage.</item>
+        <item>The short is used in a less broad range of applications, as it can only hold the numbers
+        -32,768 to 32,767. But due to this small numerical range it takes just halve of the memory
+            of an int, 2 bytes of storage.</item>
+        <item>The byte like a short is limited in applications due to its small range, -128 to 127,
+            however it takes only 1 byte to be stored</item>
+        <item>The long is the largest of the four types as it can handle numbers
+            -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807, but being this big takes a lot
+            of storage, 8 bytes.</item>
+    </string-array>
+
+    <string-array name="l3">
+        <item>floats and doubles be have much like integers in that they store a number,
+            however they have the ability to store decimals as well.</item>
+        <item>floats much like integers are used to store a number, in this case it is positive or
+            negative 3.40282345E+32. It is different from the integer data types because
+            it can store decimal numbers with an accuracy to the 7th decimal place. Uses 4 bytes
+            of storage</item>
+         <item>A double, which is much more commonly used, is the same as a float except that it can
+             vary from positive or negative 1.79769313486231570E+308. It is more commonly used not
+             only for its more expansive range but also because of its accuracy to the 15th decimal
+             place. Uses 8 bytes of storage</item>
+    </string-array>
+
+    <string-array name="l4">
+        <item>Declaring a variable is very simple, lets take int as our example. Imagine that we
+            are writing a program that counts the number of people in a room, but we want a location
+            to store the data before we print it. Lets make numOfPeople our int value, to do this we
+            want to first tell the computer what kind of data type it is (int), second we want to tell
+             the computer how to identify it using a variable name (numOfPeople), it should look
+            like this \nint numOfPeople;</item>
+        <item>Now that you have declared the variable you can store a value within it (initialization). Using the
+            previous example we simply put (variable name) = number; \nex.\nnumOfPeople = 2;\n You can
+            also declare the variable and initialize it in the same line using (data type) (variable name)
+            = (number) \n ex.\n int numOfPeople = 12;</item>
+        <item>printing a variable is similar to how we printed \"Hello World\" in the first lesson.
+            However now instead of using "PRINT THIS" in the print command, just
+            put in the variable name (without parentheses) and it will print your value!</item>
+    </string-array>
+</resources>

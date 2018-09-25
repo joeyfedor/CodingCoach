@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linlay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mandj.appbuildin.codingcoach.innovo.Learn.LearnSpinner">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="mandj.appbuildin.codingcoach.innovo.Learn.LearnSpinner"
+        tools:ignore="MergeRootFrame" />
+
+</LinearLayout>

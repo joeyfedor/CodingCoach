@@ -1,0 +1,35 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    packagingOptions {
+        exclude 'resources.arsc'
+        exclude 'AndroidManifest.xml'
+    }
+    defaultConfig {
+        applicationId 'mandj.appbuildin.codingcoach.innovo'
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode 9
+        versionName '5.0'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    // You must install or update the Support Repository through the SDK manager to use this dependency.
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.android.support:support-v13:28.0.0'
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'de.hdodenhof:circleimageview:1.2.1'
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_puzzle_runner_margin">14dp</dimen>
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="tile_lower_padding">20px</dimen>
+    <dimen name="tile_lower_margin">-18px</dimen>
+    <dimen name="shadow_pull_up">-15dp</dimen>
+    <dimen name="tile_spacer">2dp</dimen>
+    <dimen name="gradient_height">4dp</dimen>
+
+</resources>

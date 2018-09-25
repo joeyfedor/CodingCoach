@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="question_logic">
+        <item>Write a method called addTwo that accepts an int x,
+            and returns x with two added to it.</item>
+        <item>Write a method called lessThanTen that accepts an int x
+            and returns 0 if x is greater than or equal to 10, and x squared
+            if x is less than 10.</item>
+        <item>Write a method called twoOrThree that given an array
+            of integers, returns the number of integers in the array
+            that are divisible by two or three.</item>
+        <item>Write a method called divideByThree that accepts an int x and
+            returns true if the number is divisible by three and returns false if the
+            number is not divisible by three.</item>
+        <item>Write a method called bigOrLittle that accepts an double x and returns
+            its square root as an int rounded up if it is less than or equal to 13.5
+            and the power of 2 rounded down if it is greater than 13.5</item>
+        <item>Write a method called aToOne that accepts a character c with a random case and
+            returns what number it is in the alphabet as an int</item>
+        <item>Write a method called areClose that accepts two ints, one named x and the other named y,
+            and if they are within 5 digits from each other return true else return false; </item>
+        <item>Write a method called addThem that accepts two ints and returns their sum; </item>
+    </string-array>
+
+    <string-array name="method_header_logic">
+        <item>public int addTwo(int x){</item>
+        <item>public int lessThanTen(int x){</item>
+        <item>public int twoOrThree(int[] nums){</item>
+        <item>public boolean divideByThree(int x){</item>
+        <item>public int bigOrLittle(double x){</item>
+        <item>public int aToOne(char c){</item>
+        <item>public boolean areClose(int x, int y){</item>
+        <item>public int addThem(int x, int y){</item>
+    </string-array>
+
+    <string-array name="correct_answer_logic" formatted="false">
+        <item>
+            return x+2;
+        </item>
+        <item>if(x>=10)
+            return 0;
+        else
+            return x*x;</item>
+        <item>int x = 0;
+        for(int a : nums){
+            if(a % 2 == 0 || a % 3 == 0)
+                x++;
+        }
+        return x;</item>
+        <item>if(x%3==0)
+            return true;
+        else
+            return false;</item>
+        <item>
+            if(x &lt;= 13.5){
+            return (int) (Math.sqrt(x) + .99);
+            } else {
+            return (int) ((x * x));
+            }</item>
+        <item>
+            return (Character.toLowerCase(c) - \&apos;a\&apos; + 1);
+        </item>
+        <item>
+            if(Math.abs(x - y) &lt;= 5){
+                return true;
+            } else {
+                return false;
+            }
+        </item>
+        <item>
+            return x+y;
+        </item>
+    </string-array>
+
+    <string-array name="question_strings">
+        <item>Write a method called timesTwo that accepts an string str,
+            and returns str twice with a space in between them.</item>
+        <item>Write a method called flipFlop that accepts a string str,
+        and returns that string with its first letter and last letter switched.</item>
+        <item>Write a method called addSpaces that accepts a string str and
+        returns that string with a space between each letter.</item>
+        <item>Write a method called getLast that accepts a string str, and
+       returns the last letter in that string.</item>
+        <item>Write a method called getFirst that accepts a string str, and returns
+        the first letter of str as a string.</item>
+        <item>Write a method called firstLetters that accepts an array of strings and returns
+        the first letter of each string concated together</item>
+        <item>Write a method called toPalindrome that accepts a string str, and returns
+            str concatenated with backwards str.</item>
+        <item>Write a method called countFirst that accepts two strings, str and strOne, and
+            returns the number of times that the first character in str shows up in strOne.</item>
+    </string-array>
+
+    <string-array name="method_header_strings">
+        <item>public String timesTwo(String str){</item>
+        <item>public String flipFlop(String str){</item>
+        <item>public String addSpaces(String str){</item>
+        <item>public char getLast(String str){</item>
+        <item>public String getFirst(String str){</item>
+        <item>public String firstLetters(String[] strs){</item>
+        <item>public String toPalindrome(String str) {</item>
+        <item>public int countFirst(String str, String strOne) {</item>
+
+    </string-array>
+
+    <string-array name="correct_answer_strings" formatted="false">
+        <item>return str + \" \" + str;</item>
+        <item>String first = str.substring(0,1);
+        String last = str.substring(str.length()-1);
+        return last+str.substring(1,str.length()-1)+first;</item>
+        <item>String word = \"\";
+        for (int i = 0; i &lt; str.length(); i++){
+               word+=(str.substring(i,i+1));
+               if(i!=str.length()-1) word+=\" \";
+           }
+        word.trim();
+        return word;
+        }</item>
+        <item>
+            return str.charAt(str.length()-1);
+        </item>
+        <item>
+            return str.substring(0,1);
+        </item>
+        <item>
+            String str = \"\";
+            for (String stri : strs){
+            str += String.valueOf(stri.charAt(0));
+            }
+            return str;
+        </item>
+        <item>
+           String str2 = \"\";
+        for(int i=str.length()-1;i>=0;i-=1){
+           str2+=str.substring(i,i+1);
+        }
+        return str+str2;
+        </item>
+        <item>
+        char firstLetter = str.charAt(0);
+
+        int counter = 0;
+        for( int i=0; i &lt; strOne.length(); i++ ) {
+            if( strOne.charAt(i) == firstLetter ) {
+                counter++;
+            }
+        }
+        return counter;
+        </item>
+    </string-array>
+
+    <string-array name="question_loops">
+    <item>Write a method called numberOne that accepts an int array nums and
+        returns the number of ones that are in the array. For example,
+        nums[1, 3, 6 ,1 ,2 9] would return 2.</item>
+    <item>Write a method called allZeros that accepts an int count and
+        returns an int array of size count. Each element in the array should
+        be a zero.
+        </item>
+    <item>Write a method called findLargest that accepts an int array nums and
+       returns the largest integer in nums.</item>
+    <item>Write a method called halfSum that accepts an array nums and
+        returns the sum of every other in an array starting with the first number.
+    </item>
+    <item>Write a method called findSmallest that accepts an int array nums and
+        returns the smallest integer in nums.</item>
+    <item>Write a method called inReverse that accepts an int array nums
+            and returns an array that is nums in reverse.</item>
+    <item>Write a method called moreEvens that accepts an int array nums and returns
+        true if the majority of the values in nums are even.</item>
+        <item>Write a method called howMany that accepts two String (named one and two) that
+            returns the number of times that the first character in one is in two.
+            (regardless of case)</item>
+    </string-array>
+
+    <string-array name="method_header_loops">
+        <item>public int numberOne(int[] nums){</item>
+        <item>public int[] allZeros(int x){</item>
+        <item>public int findLargest(int[] nums){</item>
+        <item>public int halfSum(int[] nums){</item>
+        <item>public int findSmallest(int[] nums){</item>
+        <item>public int[] inReverse(int[] nums) {</item>
+        <item>public boolean moreEvens(int[] nums) {</item>
+        <item>public int howMany(String one, String two) {</item>
+    </string-array>
+
+    <string-array name="correct_answer_loops" formatted="false">
+    <item>int counter = 0;
+        for(int i = 0; i &lt; nums.length; i++)
+            if(nums[i] == 1) counter++;
+        return counter;</item>
+    <item> int[] arr = new int[x];
+        for(int i =0; i &lt; x; i++)
+            arr[i] = 0;
+        return arr;</item>
+    <item>int x = 0;
+       for(int a: nums)
+           if(a>x)
+               x = a;
+       return x;
+    </item>
+    <item> int count = 0;
+        for(int i = 0; i &lt; nums.length; i+=2){
+            count+=nums[i];
+        }
+        return count;</item>
+    <item>int x = nums[0];
+    for(int i=0; i&lt;nums.length; i++){
+        if(nums[i]&lt;x){
+            x=nums[i];
+        }
+    }
+    return x;</item>
+    <item>int[] arr = new int[nums.length];
+       int x = 0;
+       for(int i = nums.length-1; i &gt;= 0; i&#45;&#45;) {
+           arr[x] = nums[i];
+           x++;
+       }
+       return arr;</item>
+    <item>int x = 0;
+        for(int i = 0; i &lt; nums.length; i++){
+            if(nums[i]%2==0)
+                x++;
+        }
+        if(x>nums.length/2)
+            return true;
+        return false;</item>
+
+        <item>
+            int count = 0;
+            one = one.toLowerCase();
+            two = two.toLowerCase();
+            char comp = one.charAt(0);
+
+            for(char c : two.toCharArray()){
+                if (c == comp){
+                    count++;
+                }
+            }
+
+            return count;
+        </item>
+    </string-array>
+
+    <string-array name="random_words">
+        <item>coding</item>
+        <item>coach</item>
+        <item>pizza</item>
+        <item>hello</item>
+        <item>Android</item>
+        <item>tacos</item>
+        <item>ocean</item>
+        <item>magic</item>
+        <item>water</item>
+        <item>inventory</item>
+        <item>hi</item>
+        <item>knee</item>
+        <item>hotel</item>
+        <item>bee</item>
+        <item>butterfly</item>
+        <item>hurdle</item>
+        <item>duck</item>
+        <item>bananas</item>
+        <item>turtle</item>
+
+    </string-array>
+
+
+</resources>

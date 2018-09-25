@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mandj.appbuildin.codingcoach.innovo.Study.Runner.Help.HelpSwipe">
+
+    <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="mandj.appbuildin.codingcoach.innovo.Study.Runner.Help.HelpSwipe" />
+
+    <TextView
+        android:id="@+id/textViewClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="1dp"
+        android:autoText="false"
+        android:background="#ffdcdcdc"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:onClick="onCloseClick"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="Click here to close" />
+
+</RelativeLayout>

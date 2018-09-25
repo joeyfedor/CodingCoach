@@ -1,0 +1,164 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/grey_300"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context="mandj.appbuildin.tempmandj.module.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/card_view"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:maxHeight="100dp"
+        android:maxWidth="100dp"
+        android:src="@drawable/fullsizedbrackets" />
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/card_view1"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:clickable="false"
+        android:elevation="@dimen/cardview_default_elevation"
+        android:onClick="onLearnClick"
+        card_view:cardCornerRadius="3dp"
+        card_view:contentPadding="5dp">
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:gravity="center_horizontal"
+                android:text="Learn"
+                android:textIsSelectable="false"
+                android:textSize="24dp" />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/card_view2"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:clickable="false"
+        android:elevation="@dimen/cardview_default_elevation"
+        android:onClick="onStudyClick"
+        card_view:cardCornerRadius="3dp"
+        card_view:contentPadding="5dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+            <TextView
+                android:id="@+id/header1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center_horizontal"
+                android:text="Study"
+                android:textIsSelectable="false"
+                android:textSize="24dp" />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/card_view3"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:clickable="false"
+        android:elevation="@dimen/cardview_default_elevation"
+        android:onClick="onAchievementsClick"
+        card_view:cardCornerRadius="3dp"
+        card_view:contentPadding="5dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+            <TextView
+                android:id="@+id/header2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="onAchievementsClick"
+                android:text="Achievements"
+                android:textIsSelectable="false"
+                android:textSize="24dp" />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:clickable="false"
+        android:elevation="@dimen/cardview_default_elevation"
+        android:onClick="onLeaderboardClick"
+        card_view:cardCornerRadius="3dp"
+        card_view:contentPadding="5dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:id="@+id/header3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center_horizontal"
+                android:onClick="onLeaderboardClick"
+                android:text="Leader Boards"
+                android:textIsSelectable="false"
+                android:textSize="24dp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
+

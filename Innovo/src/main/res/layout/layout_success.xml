@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+
+        <RelativeLayout
+            android:id="@+id/SuccessRelLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/dialog_round_corners">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center_horizontal"
+                android:paddingTop="4dp"
+                android:text="Success!"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/imageViewCheck"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/textView"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="Check ->"
+                android:gravity="center_horizontal"
+                android:src="@drawable/success_check" />
+
+            <TextView
+                android:id="@+id/textSuccess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageViewCheck"
+                android:layout_marginBottom="15dp"
+                android:gravity="center_horizontal"
+                android:text="PUZZLE SOLVED!"
+                android:textColor="#ffffff"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <!-- <TextView
+                 android:id="@+id/textView2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:gravity="center_vertical"
+                 android:text="Puzzle Name"
+                 android:textAppearance="?
+ android:attr/textAppearanceLarge"
+                 android:textSize="20dp"
+                 android:layout_below="@+id/textSuccess"
+                 android:layout_toLeftOf="@+id/textView15"/>
+
+             <ImageView
+                 android:id="@+id/imageView"
+                 android:layout_width="52dp"
+                 android:layout_height="52dp"
+                 android:contentDescription="This is where the
+ dificulty icon will go ->"
+                 android:src="@drawable/easiest"
+                 android:layout_marginRight="26dp"
+                 android:layout_marginEnd="26dp"
+                 android:layout_below="@+id/textSuccess"
+                 android:layout_alignParentRight="true"
+                 android:layout_alignParentEnd="true" />-->
+
+
+            <!--<TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView"
+                android:id="@+id/tab_layout">
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="66"
+                    android:width="66dp"
+                    android:gravity="center_horizontal"
+                    android:text="Correct"
+                    android:textAppearance="?
+android:attr/textAppearanceMedium"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="66"
+                    android:width="66dp"
+                    android:gravity="center_horizontal"
+                    android:text="Uncompleted"
+                    android:textAppearance="?
+android:attr/textAppearanceMedium"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_toEndOf="@+id/textView6"
+                    android:layout_toRightOf="@+id/textView6"
+                    android:layout_weight="66"
+                    android:width="66dp"
+                    android:gravity="center_horizontal"
+                    android:text="Failed"
+                    android:textAppearance="?
+android:attr/textAppearanceMedium"
+                    android:textSize="15dp" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tab_layout"
+                android:id="@+id/tab1_layout">
+
+                <TextView
+                    android:id="@+id/sucCorrectNum"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="66"
+                    android:gravity="center_horizontal"
+                    android:text="num here"
+                    android:textAppearance="?
+android:attr/textAppearanceMedium"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/sucUncomNum"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="66"
+                    android:gravity="center_horizontal"
+                    android:text="num here"
+                    android:textAppearance="?
+android:attr/textAppearanceMedium"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/sucFailedNum"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="66"
+                    android:gravity="center_horizontal"
+                    android:text="num here"
+                    android:textAppearance="?
+android:attr/textAppearanceMedium"
+                    android:textSize="15dp" />
+            </TableRow>-->
+
+            <!--<TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="5dp"
+                android:text="Results"
+                android:textAppearance="?
+android:attr/textAppearanceLarge"
+                android:textSize="20dp"
+                android:layout_below="@id/tab1_layout" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView15"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|
+center_horizontal"
+                android:text="Input"
+                android:textAppearance="?
+android:attr/textAppearanceMedium"
+                android:layout_toLeftOf="@+id/textView15"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView15"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|
+center_horizontal"
+                android:text="Output"
+                android:textAppearance="?
+android:attr/textAppearanceMedium"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_toRightOf="@+id/textView15"
+                android:layout_toEndOf="@+id/textView15" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="Text"
+                android:textSize="16dp"
+                android:textAppearance="?
+android:attr/textAppearanceMedium"
+                android:layout_toLeftOf="@+id/textView15"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView11" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="Text"
+                android:textSize="16dp"
+                android:textAppearance="?
+android:attr/textAppearanceMedium"
+                android:layout_toRightOf="@+id/textView15"
+                android:layout_below="@+id/textView12"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />-->
+
+            <Button
+                android:id="@+id/shareButton"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toLeftOf="@+id/button"
+                android:layout_toStartOf="@+id/button"
+
+                android:drawableLeft="@drawable/ic_share_white_24dp"
+                android:drawablePadding="5dp"
+                android:text="Share"
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/textSuccess"
+                android:text="Close"
+                android:textColor="#ffffff"
+                android:textColorHighlight="#ffffff"
+                android:textSize="15dp" />
+            <!--android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"-->
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="testString">
+        <item>coding</item>
+        <item>coach</item>
+        <item>pizza</item>
+        <item>hello</item>
+        <item>party</item>
+        <item>computer</item>
+        <item>frog</item>
+        <item>akin</item>
+        <item>yolk</item>
+        <item>jazzy</item>
+        <item>enzyme</item>
+        <item>aaliis</item>
+        <item>breezy</item>
+        <item>strand</item>
+        <item>indigo</item>
+        <item>guitar</item>
+        <item>sulfur</item>
+        <item>walrus</item>
+        <item>lizard</item>
+        <item>velvet</item>
+        <item>trained</item>
+        <item>treason</item>
+        <item>neutral</item>
+        <item>outline</item>
+        <item>granite</item>
+        <item>rationed</item>
+        <item>insolate</item>
+        <item>retained</item>
+        <item>discover</item>
+        <item>tomorrow</item>
+        <item>dinosaur</item>
+        <item>footsteps</item>
+        <item>misinform</item>
+        <item>collection</item>
+        <item>jive</item>
+        <item>lamb</item>
+        <item>curb</item>
+        <item>oxen</item>
+        <item>taler</item>
+        <item>greek</item>
+        <item>spray</item>
+    </string-array>
+
+    <string-array name="packagesOne">
+        <item>java.lang.Boolean</item>
+        <item>java.lang.Byte</item>
+        <item>java.lang.Character</item>
+        <item>java.lang.Double</item>
+        <item>java.lang.Float</item>
+        <item>java.lang.Integer</item>
+        <item>java.lang.Math</item>
+        <item>java.lang.Object</item>
+        <item>java.lang.String</item>
+        <item>java.lang.System</item>
+        <item>java.util.ArrayList</item>
+        <item>java.util.Arrays</item>
+        <item>java.util.Objects</item>
+        <item>java.util.Random</item>
+        <item>java.util.Scanner</item>
+    </string-array>
+
+    <string-array name="packagesOneDescripts">
+        <item>The Boolean class wraps a value of the primitive type boolean in an object.</item>
+        <item>The Byte class wraps a value of primitive type byte in an object.</item>
+        <item>The Character class wraps a value of the primitive type char in an object.</item>
+        <item>The Double class wraps a value of the primitive type double in an object.</item>
+        <item>The Float class wraps a value of primitive type float in an object.</item>
+        <item>The Integer class wraps a value of the primitive type int in an object.</item>
+        <item>The class Math contains methods for performing basic numeric operations such as the elementary exponential, logarithm, square root, and trigonometric functions.</item>
+        <item>Class Object is the root of the class hierarchy.</item>
+        <item>The String class represents character strings.</item>
+        <item>The System class contains several useful class fields and methods.</item>
+        <item>Resizable-array implementation of the List interface.</item>
+        <item>This class contains various methods for manipulating arrays (such as sorting and searching).</item>
+        <item>This class consists of static utility methods for operating on objects.</item>
+        <item>An instance of this class is used to generate a stream of pseudorandom numbers.</item>
+        <item>A simple text scanner which can parse primitive types and strings using regular expressions.</item>
+    </string-array>
+
+    <string-array name="booleanMethods">
+        <item>booleanValue()</item>
+        <item>compare(boolean x, boolean y)</item>
+        <item>compareTo(Boolean b)</item>
+        <item>equals(Object obj)</item>
+        <item>getBoolean(String name)</item>
+        <item>parseBoolean(String s)</item>
+        <item>toString()</item>
+        <item>toString(boolean b)</item>
+        <item>valueOf(boolean b)</item>
+        <item>valueOf(String s)</item>
+    </string-array>
+
+    <string-array name="booleanDescriptions">
+        <item>Returns the value of this Boolean object as a boolean primitive.</item>
+        <item>Compares two boolean values.</item>
+        <item>Compares this Boolean instance with another.</item>
+        <item>Returns true if and only if the argument is not null and is a Boolean object that represents the same boolean value as this object.</item>
+        <item>Returns true if and only if the system property named by the argument exists and is equal to the string "true".</item>
+        <item>Parses the string argument as a boolean.</item>
+        <item>Returns a String object representing this Boolean\'s value.</item>
+        <item>Returns a String object representing the specified boolean.</item>
+        <item>Returns a Boolean instance representing the specified boolean value.</item>
+        <item>Returns a Boolean with a value represented by the specified string.</item>
+    </string-array>
+
+    <string-array name="booleanReturnTypes">
+        <item>boolean</item>
+        <item>static int</item>
+        <item>int</item>
+        <item>boolean</item>
+        <item>static boolean</item>
+        <item>static boolean</item>
+        <item>String</item>
+        <item>static String</item>
+        <item>static Boolean</item>
+        <item>static Boolean</item>
+    </string-array>
+
+    <string-array name="byteMethods">
+        <item>byteValue()</item>
+        <item>compare(byte x, byte y)</item>
+        <item>compareTo(Byte anotherByte)</item>
+        <item>doubleValue()</item>
+        <item>equals(Object obj)</item>
+        <item>floatValue()</item>
+        <item>intValue()</item>
+        <item>longValue()</item>
+        <item>parseByte(String s)</item>
+        <item>parseByte(String s, int radix)</item>
+        <item>shortValue()</item>
+        <item>toString()</item>
+        <item>toString(byte b)</item>
+        <item>valueOf(byte b)</item>
+        <item>valueOf(String s)</item>
+        <item>valueOf(String s, int radix)</item>
+    </string-array>
+
+    <string-array name="byteDescriptions">
+        <item>Returns the value of this Byte as a byte.</item>
+        <item>Compares two byte values numerically.</item>
+        <item>Compares two Byte objects numerically.</item>
+        <item>Returns the value of this Byte as a double.</item>
+        <item>Compares this object to the specified object.</item>
+        <item>Returns the value of this Byte as a float.</item>
+        <item>Returns the value of this Byte as an int.</item>
+        <item>Returns the value of this Byte as a long.</item>
+        <item>Parses the string argument as a signed decimal byte.</item>
+        <item>Parses the string argument as a signed byte in the radix specified by the second argument.</item>
+        <item>Returns the value of this Byte as a short.</item>
+        <item>Returns a String object representing this Byte\'s value.</item>
+        <item>Returns a new String object representing the specified byte.</item>
+        <item>Returns a Byte instance representing the specified byte value.</item>
+        <item>Returns a Byte object holding the value given by the specified String.</item>
+        <item>Returns a Byte object holding the value extracted from the specified String when parsed with the radix given by the second argument.</item>
+        </string-array>
+
+    <string-array name="byteReturnTypes">
+        <item>byte</item>
+        <item>static int</item>
+        <item>int</item>
+        <item>double</item>
+        <item>boolean</item>
+        <item>float</item>
+        <item>int</item>
+        <item>long</item>
+        <item>static byte</item>
+        <item>static byte</item>
+        <item>short</item>
+        <item>String</item>
+        <item>static String</item>
+        <item>static Byte</item>
+        <item>static Byte</item>
+        <item>static Byte</item>
+    </string-array>
+    
+    <string-array name="charMethods">
+        <item>charValue()</item>
+        <item>compare(char x, char y)</item>
+        <item>compareTo(Character anotherCharacter)</item>
+        <item>digit(char ch, int radix)</item>
+        <item>equals(Object obj)</item>
+        <item>forDigit(int digit, int radix)</item>
+        <item>getNumericValue(char ch)</item>
+        <item>getType(char ch)</item>
+        <item>isDefined(char ch)</item>
+        <item>isDigit(char ch)</item>
+        <item>isLetter(char ch)</item>
+        <item>isLetterOrDigit(char ch)</item>
+        <item>isLowerCase(char ch)</item>
+        <item>isMirrored(char ch)</item>
+        <item>isSpaceChar(char ch)</item>
+        <item>isTitleCase(char ch)</item>
+        <item>isUpperCase(char ch)</item>
+        <item>isWhitespace(char ch)</item>
+        <item>reverseBytes(char ch)</item>
+        <item>toLowerCase(char ch)</item>
+        <item>toString()</item>
+        <item>toString(char c)</item>
+        <item>toTitleCase(char ch)</item>
+        <item>toUpperCase(char ch)</item>
+        <item>valueOf(char c)</item>
+    </string-array>
+
+    <string-array name="charDescriptions">
+        <item>Returns the value of this Character object.</item>
+        <item>Compares two char values numerically.</item>
+        <item>Compares two Character objects numerically.</item>
+        <item>Returns the numeric value of the character ch in the specified radix.</item>
+        <item>Compares this object against the specified object.</item>
+        <item>Determines the character representation for a specific digit in the specified radix.</item>
+        <item>Returns the int value that the specified Unicode character represents.</item>
+        <item>Returns a value indicating a character\'s general category.</item>
+        <item>Determines if a character is defined in Unicode.</item>
+        <item>Determines if the specified character is a digit.</item>
+        <item>Determines if the specified character is a letter.</item>
+        <item>Determines if the specified character is a letter or digit.</item>
+        <item>Determines if the specified character is a lowercase character.</item>
+        <item>Determines whether the character is mirrored according to the Unicode specification.</item>
+        <item>Determines if the specified character is a Unicode space character.</item>
+        <item>Determines if the specified character is a titlecase character.</item>
+        <item>Determines if the specified character is an uppercase character.</item>
+        <item>Determines if the specified character is white space according to Java.</item>
+        <item>Returns the value obtained by reversing the order of the bytes in the specified char value.</item>
+        <item>Converts the character argument to lowercase using case mapping information from the UnicodeData file.</item>
+        <item>Returns a String object representing this Character\'s value.</item>
+        <item>Returns a String object representing the specified char.</item>
+        <item>Converts the character argument to titlecase using case mapping information from the UnicodeData file.</item>
+        <item>Converts the character argument to uppercase using case mapping information from the UnicodeData file.</item>
+        <item>Returns a Character instance representing the specified char value.</item>
+    </string-array>
+
+    <string-array name="charReturnTypes">
+        <item>char</item>
+        <item>static int</item>
+        <item>int</item>
+        <item>static int</item>
+        <item>boolean</item>
+        <item>static char</item>
+        <item>static int</item>
+        <item>static int</item>
+        <item>static boolean</item>
+        <item>static boolean</item>
+        <item>static boolean</item>
+        <item>static boolean</item>
+        <item>static boolean</item>
+        <item>static boolean</item>
+        <item>static boolean</item>
+        <item>static boolean</item>
+        <item>static boolean</item>
+        <item>static boolean</item>
+        <item>static char</item>
+        <item>static char</item>
+        <item>String</item>
+        <item>static String</item>
+        <item>static char</item>
+        <item>static char</item>
+        <item>static Character</item>
+    </string-array>
+
+    <string-array name="doubleMethods">
+        <item>byteValue()</item>
+        <item>compare(double d1, double d2)</item>
+        <item>compareTo(Double anotherDouble)</item>
+        <item>doubleValue()</item>
+        <item>equals(Object obj)</item>
+        <item>floatValue()</item>
+        <item>intValue()</item>
+        <item>longValue()</item>
+        <item>parseDouble(String s)</item>
+        <item>shortValue()</item>
+        <item>toHexString(double d)</item>
+        <item>toString()</item>
+        <item>toString(double d)</item>
+        <item>valueOf(double d)</item>
+        <item>valueOf(String s)</item>
+    </string-array>
+
+    <string-array name="doubleDescriptions">
+        <item>Returns the value of this Double as a byte (by casting to a byte).</item>
+        <item>Compares the two specified double values</item>
+        <item>Compares two Double objects numerically.</item>
+        <item>Returns the double value of this Double object.</item>
+        <item>Compares this object against the specified object.</item>
+        <item>Returns the float value of this Double object.</item>
+        <item>Returns the value of this Double as an int (by casting to type int).</item>
+        <item>Returns the value of this Double as a long (by casting to type long).</item>
+        <item>Returns a new double initialized to the value represented by the specified String, as performed by the valueOf method of class Double.</item>
+        <item>Returns the value of this Double as a short (by casting to a short).</item>
+        <item>Returns a hexadecimal string representation of the double argument.</item>
+        <item>Returns a string representation of this Double object.</item>
+        <item>Returns a string representation of the double argument.</item>
+        <item>Returns a Double instance representing the specified double value.</item>
+        <item>Returns a Double object holding the double value represented by the argument string s.</item>
+    </string-array>
+
+    <string-array name="doubleReturnTypes">
+        <item>byte</item>
+        <item>static int</item>
+        <item>int</item>
+        <item>static long</item>
+        <item>double</item>
+        <item>boolean</item>
+        <item>int</item>
+        <item>long</item>
+        <item>static double</item>
+        <item>short</item>
+        <item>static String</item>
+        <item>String</item>
+        <item>static String</item>
+        <item>static Double</item>
+        <item>static Double</item>
+    </string-array>
+
+    <string-array name="floatMethods">
+        <item>byteValue()</item>
+        <item>compare(float f1, float f2)</item>
+        <item>compareTo(Float anotherFloat)</item>
+        <item>doubleValue()</item>
+        <item>equals(Object obj)</item>
+        <item>floatValue()</item>
+        <item>intValue()</item>
+        <item>longValue()</item>
+        <item>parseFloat(String s)</item>
+        <item>shortValue()</item>
+        <item>toHexString(float f)</item>
+        <item>toString()</item>
+        <item>toString(float f)</item>
+        <item>valueOf(float f)</item>
+        <item>valueOf(String s)</item>
+    </string-array>
+
+    <string-array name="floatDescriptions">
+        <item>Returns the value of this Float as a byte (by casting to a byte).</item>
+        <item>Compares the two specified float values.</item>
+        <item>Compares two Float objects numerically.</item>
+        <item>Returns the double value of this Float object.</item>
+        <item>Compares this object against the specified object.</item>
+        <item>Returns the float value of this Float object.</item>
+        <item>Returns the value of this Float as an int (by casting to type int).</item>
+        <item>Returns value of this Float as a long (by casting to type long).</item>
+        <item>Returns a new float initialized to the value represented by the specified String, as performed by the valueOf method of class Float.</item>
+        <item>Returns the value of this Float as a short (by casting to a short).</item>
+        <item>Returns a hexadecimal string representation of the float argument.</item>
+        <item>Returns a string representation of this Float object</item>
+        <item>Returns a string representation of the float argument.</item>
+        <item>Returns a Float instance representing the specified float value</item>
+        <item>Returns a Float object holding the float value represented by the argument string s.</item>
+    </string-array>
+
+    <string-array name="floatReturnTypes">
+        <item>byte</item>
+        <item>static int</item>
+        <item>int</item>
+        <item>double</item>
+        <item>boolean</item>
+        <item>float</item>
+        <item>int</item>
+        <item>long</item>
+        <item>static float</item>
+        <item>short</item>
+        <item>static String</item>
+        <item>String</item>
+        <item>static String</item>
+        <item>static Float</item>
+        <item>static Float</item>
+    </string-array>
+
+    <string-array name="integerMethods">
+        <item>byteValue()</item>
+        <item>compare(int x, int y)</item>
+        <item>compareTo(Integer anotherInteger)</item>
+        <item>doubleValue()</item>
+        <item>equals(Object obj)</item>
+        <item>floatValue()</item>
+        <item>intValue()</item>
+        <item>longValue()</item>
+        <item>parseInt(String s)</item>
+        <item>parseInt(String s, int radix)</item>
+        <item>reverse(int i)</item>
+        <item>reverseBytes(int i)</item>
+        <item>shortValue()</item>
+        <item>signum(int i)</item>
+        <item>toBinaryString(int i)</item>
+        <item>toHexString(int i)</item>
+        <item>toOctalString(int i)</item>
+        <item>toString()</item>
+        <item>toString(int i)</item>
+        <item>toString(int i, int radix)</item>
+        <item>valueOf(int i)</item>
+        <item>valueOf(String s)</item>
+        <item>valueOf(String s, int radix)</item>
+    </string-array>
+
+    <string-array name="integerDescriptions">
+        <item>Returns the value of this Integer as a byte.</item>
+        <item>Compares two int values numerically.</item>
+        <item>Compares two Integer objects numerically.</item>
+        <item>Returns the value of this Integer as a double.</item>
+        <item>Compares this object to the specified object.</item>
+        <item>Returns the value of this Integer as a float.</item>
+        <item>Returns the value of this Integer as an int</item>
+        <item>Returns the value of this Integer as a long.</item>
+        <item>Parses the string argument as a signed decimal integer.</item>
+        <item>Parses the string argument as a signed integer in the radix specified by the second argument.</item>
+        <item>Returns the value obtained by reversing the order of the bits in the two\'s complement binary representation of the specified int value.</item>
+        <item>Returns the value obtained by reversing the order of the bytes in the two\'s complement representation of the specified int value.</item>
+        <item>Returns the value of this Integer as a short.</item>
+        <item>Returns the signum function of the specified int value.</item>
+        <item>Returns a string representation of the integer argument as an unsigned integer in base 2.</item>
+        <item>Returns a string representation of the integer argument as an unsigned integer in base 16.</item>
+        <item>Returns a string representation of the integer argument as an unsigned integer in base 8.</item>
+        <item>Returns a String object representing this Integer\'s value.</item>
+        <item>Returns a String object representing the specified integer.</item>
+        <item>Returns a string representation of the first argument in the radix specified by the second argument.</item>
+        <item>Returns an Integer instance representing the specified int value.</item>
+        <item>Returns an Integer object holding the value of the specified String.</item>
+        <item>Returns an Integer object holding the value extracted from the specified String when parsed with the radix given by the second argument.</item>
+    </string-array>
+
+    <string-array name="integerReturnTypes">
+        <item>byte</item>
+        <item>static int</item>
+        <item>int</item>
+        <item>double</item>
+        <item>boolean</item>
+        <item>float</item>
+        <item>int</item>
+        <item>long</item>
+        <item>static int</item>
+        <item>static int</item>
+        <item>static int</item>
+        <item>static int</item>
+        <item>short</item>
+        <item>static int</item>
+        <item>static String</item>
+        <item>static String</item>
+        <item>static String</item>
+        <item>String</item>
+        <item>static String</item>
+        <item>static String</item>
+        <item>static Integer</item>
+        <item>static Integer</item>
+        <item>static Integer</item>
+    </string-array>
+
+    <string-array name="mathMethods">
+        <item>abs(double a)</item>
+        <item>abs(float a)</item>
+        <item>abs(int a)</item>
+        <item>abs(long a)</item>
+        <item>acos(double a)</item>
+        <item>asin(double a)</item>
+        <item>atan(double a)</item>
+        <item>atan2(double y, double x)</item>
+        <item>cbrt(double a)</item>
+        <item>ceil(double a)</item>
+        <item>cos(double a)</item>
+        <item>floor(double a)</item>
+        <item>hypot(double x, double y)</item>
+        <item>max(double a, double b)</item>
+        <item>max(float a, float b)</item>
+        <item>max(int a, int b)</item>
+        <item>max(long a, long b)</item>
+        <item>min(double a, double b)</item>
+        <item>min(float a, float b)</item>
+        <item>min(int a, int b)</item>
+        <item>min(long a, long b)</item>
+        <item>nextAfter(double start, double direction)</item>
+        <item>nextAfter(float start, double direction)</item>
+        <item>nextUp(double d)</item>
+        <item>nextUp(float f)</item>
+        <item>pow(double a, double b)</item>
+        <item>random()</item>
+        <item>rint(double a)</item>
+        <item>round(double a)</item>
+        <item>round(float a)</item>
+        <item>signum(double d)</item>
+        <item>signum(float f)</item>
+        <item>sin(double a)</item>
+        <item>sqrt(double a)</item>
+        <item>tan(double a)</item>
+        <item>toDegrees(double angrad)</item>
+        <item>toRadians(double angdeg)</item>
+    </string-array>
+
+    <string-array name="mathDescriptions">
+        <item>Returns the absolute value of a double value.</item>
+        <item>Returns the absolute value of a float value.</item>
+        <item>Returns the absolute value of an int value.</item>
+        <item>Returns the absolute value of a long value.</item>
+        <item>Returns the arc cosine of a value; the returned angle is in the range 0.0 through pi.</item>
+        <item>Returns the arc sine of a value; the returned angle is in the range -pi/2 through pi/2.</item>
+        <item>Returns the arc tangent of a value; the returned angle is in the range -pi/2 through pi/2.</item>
+        <item>Returns the angle theta from the conversion of rectangular coordinates (x, y) to polar coordinates (r, theta).</item>
+        <item>Returns the cube root of a double value.</item>
+        <item>Returns the smallest (closest to negative infinity) double value that is greater than or equal to the argument and is equal to a mathematical integer.</item>
+        <item>Returns the trigonometric cosine of an angle.</item>
+        <item>Returns the largest (closest to positive infinity) double value that is less than or equal to the argument and is equal to a mathematical integer.</item>
+        <item>Returns sqrt(x2 +y2) without intermediate overflow or underflow.</item>
+        <item>Returns the greater of two double values.</item>
+        <item>Returns the greater of two float values.</item>
+        <item>Returns the greater of two int values.</item>
+        <item>Returns the greater of two long values.</item>
+        <item>Returns the smaller of two double values.</item>
+        <item>Returns the smaller of two float values.</item>
+        <item>Returns the smaller of two int values.</item>
+        <item>Returns the smaller of two long values.</item>
+        <item>Returns the floating-point number adjacent to the first argument in the direction of the second argument.</item>
+        <item>Returns the floating-point number adjacent to the first argument in the direction of the second argument.</item>
+        <item>Returns the floating-point value adjacent to d in the direction of positive infinity.</item>
+        <item>Returns the floating-point value adjacent to f in the direction of positive infinity.</item>
+        <item>Returns the value of the first argument raised to the power of the second argument.</item>
+        <item>Returns a double value with a positive sign, greater than or equal to 0.0 and less than 1.0.</item>
+        <item>Returns the double value that is closest in value to the argument and is equal to a mathematical integer.</item>
+        <item>Returns the closest long to the argument, with ties rounding up.</item>
+        <item>Returns the closest int to the argument, with ties rounding up.</item>
+        <item>Returns the signum function of the argument; zero if the argument is zero, 1.0 if the argument is greater than zero, -1.0 if the argument is less than zero.</item>
+        <item>Returns the signum function of the argument; zero if the argument is zero, 1.0f if the argument is greater than zero, -1.0f if the argument is less than zero.</item>
+        <item>Returns the trigonometric sine of an angle.</item>
+        <item>Returns the correctly rounded positive square root of a double value.</item>
+        <item>Returns the trigonometric tangent of an angle.</item>
+        <item>Converts an angle measured in radians to an approximately equivalent angle measured in degrees.</item>
+        <item>Converts an angle measured in degrees to an approximately equivalent angle measured in radians.</item>
+    </string-array>
+
+    <string-array name="mathReturnTypes">
+        <item>static double</item>
+        <item>static float</item>
+        <item>static int</item>
+        <item>static long</item>
+        <item>static double</item>
+        <item>static double</item>
+        <item>static double</item>
+        <item>static double</item>
+        <item>static double</item>
+        <item>static double</item>
+        <item>static double</item>
+        <item>static double</item>
+        <item>static double</item>
+        <item>static double</item>
+        <item>static float</item>
+        <item>static int</item>
+        <item>static long</item>
+        <item>static double</item>
+        <item>static float</item>
+        <item>static int</item>
+        <item>static long</item>
+        <item>static double</item>
+        <item>static float</item>
+        <item>static double</item>
+        <item>static float</item>
+        <item>static double</item>
+        <item>static double</item>
+        <item>static double</item>
+        <item>static long</item>
+        <item>static int</item>
+        <item>static double</item>
+        <item>static float</item>
+        <item>static double</item>
+        <item>static double</item>
+        <item>static double</item>
+        <item>static double</item>
+        <item>static double</item>
+    </string-array>
+
+    <string-array name="objectMethods">
+        <item>clone()</item>
+        <item>equals(Object obj)</item>
+        <item>toString()</item>
+    </string-array>
+
+    <string-array name="objectDescriptions">
+        <item>Creates and returns a copy of this object.</item>
+        <item>Indicates whether some other object is "equal to" this one.</item>
+        <item>Returns a string representation of the object.</item>
+    </string-array>
+
+    <string-array name="objectReturnTypes">
+        <item>protected Object</item>
+        <item>boolean</item>
+        <item>String</item>
+    </string-array>
+
+    <string-array name="stringMethods">
+        <item>charAt(int index)</item>
+        <item>compareTo(String anotherString)</item>
+        <item>compareToIgnoreCase(String str)</item>
+        <item>concat(String str)</item>
+        <item>contains(CharSequence s)</item>
+        <item>contentEquals(CharSequence cs)</item>
+        <item>copyValueOf(char[] data)</item>
+        <item>copyValueOf(char[] data, int offset, int count)</item>
+        <item>endsWith(String suffix)</item>
+        <item>equals(Object anObject)</item>
+        <item>equalsIgnoreCase(String anotherString)</item>
+        <item>getBytes(Charset charset)</item>
+        <item>getChars(int srcBegin, int srcEnd, char[] dst, int dstBegin)</item>
+        <item>indexOf(int ch)</item>
+        <item>indexOf(int ch, int fromIndex)</item>
+        <item>indexOf(String str)</item>
+        <item>indexOf(String str, int fromIndex)</item>
+        <item>isEmpty()</item>
+        <item>lastIndexOf(int ch)</item>
+        <item>lastIndexOf(int ch, int fromIndex)</item>
+        <item>lastIndexOf(String str)</item>
+        <item>lastIndexOf(String str, int fromIndex)</item>
+        <item>length()</item>
+        <item>regionMatches(boolean ignoreCase, int toffset, String other, int ooffset, int len)</item>
+        <item>regionMatches(int toffset, String other, int ooffset, int len)</item>
+        <item>replace(char oldChar, char newChar)</item>
+        <item>replace(CharSequence target, CharSequence replacement)</item>
+        <item>replaceAll(String regex, String replacement)</item>
+        <item>replaceFirst(String regex, String replacement)</item>
+        <item>startsWith(String prefix)</item>
+        <item>startsWith(String prefix, int toffset)</item>
+        <item>subSequence(int beginIndex, int endIndex)</item>
+        <item>substring(int beginIndex)</item>
+        <item>substring(int beginIndex, int endIndex)</item>
+        <item>toCharArray()</item>
+        <item>toLowerCase()</item>
+        <item>toString())</item>
+        <item>toUpperCase()</item>
+        <item>trim()</item>
+        <item>valueOf(boolean b)</item>
+        <item>valueOf(char c)</item>
+        <item>valueOf(char[] data)</item>
+        <item>valueOf(char[] data, int offset, int count)</item>
+        <item>valueOf(double d)</item>
+        <item>valueOf(float f)</item>
+        <item>valueOf(int i)</item>
+        <item>valueOf(long l)</item>
+        <item>valueOf(Object obj)</item>
+    </string-array>
+
+    <string-array name="stringDescriptions">
+        <item>Returns the char value at the specified index.</item>
+        <item>Compares two strings lexicographically.</item>
+        <item>Compares two strings lexicographically, ignoring case differences.</item>
+        <item>Concatenates the specified string to the end of this string.</item>
+        <item>Returns true if and only if this string contains the specified sequence of char values.</item>
+        <item>Compares this string to the specified CharSequence.</item>
+        <item>Returns a String that represents the character sequence in the array specified.</item>
+        <item>Returns a String that represents the character sequence in the array specified.</item>
+        <item>Tests if this string ends with the specified suffix.</item>
+        <item>Compares this string to the specified object.</item>
+        <item>Compares this String to another String, ignoring case considerations.</item>
+        <item>Encodes this String into a sequence of bytes using the platform\'s default charset, storing the result into a new byte array.</item>
+        <item>Copies characters from this string into the destination character array.</item>
+        <item>Returns the index within this string of the first occurrence of the specified character.</item>
+        <item>Returns the index within this string of the first occurrence of the specified character, starting the search at the specified index.</item>
+        <item>Returns the index within this string of the first occurrence of the specified substring.</item>
+        <item>Returns the index within this string of the first occurrence of the specified substring, starting at the specified index.</item>
+        <item>Returns true if, and only if, length() is 0.</item>
+        <item>Returns the index within this string of the last occurrence of the specified character.</item>
+        <item>Returns the index within this string of the last occurrence of the specified character, searching backward starting at the specified index.</item>
+        <item>Returns the index within this string of the last occurrence of the specified substring.</item>
+        <item>Returns the index within this string of the last occurrence of the specified substring, searching backward starting at the specified index.</item>
+        <item>Returns the length of this string.</item>
+        <item>Tests if two string regions are equal.</item>
+        <item>Tests if two string regions are equal.</item>
+        <item>Returns a new string resulting from replacing all occurrences of oldChar in this string with newChar.</item>
+        <item>Replaces each substring of this string that matches the literal target sequence with the specified literal replacement sequence.</item>
+        <item>Replaces each substring of this string that matches the given regular expression with the given replacement.</item>
+        <item>Replaces the first substring of this string that matches the given regular expression with the given replacement.</item>
+        <item>Tests if this string starts with the specified prefix.</item>
+        <item>Tests if the substring of this string beginning at the specified index starts with the specified prefix.</item>
+        <item>Returns a new character sequence that is a subsequence of this sequence</item>
+        <item>Returns a new string that is a substring of this string.</item>
+        <item>Returns a new string that is a substring of this string.</item>
+        <item>Converts this string to a new character array.</item>
+        <item>Converts all of the characters in this String to lower case using the rules of the default locale.</item>
+        <item>This object (which is already a string!) is itself returned.</item>
+        <item>Converts all of the characters in this String to upper case using the rules of the default locale.</item>
+        <item>Returns a copy of the string, with leading and trailing whitespace omitted.</item>
+        <item>Returns the string representation of the boolean argument.</item>
+        <item>Returns the string representation of the char argument.</item>
+        <item>Returns the string representation of the char array argument.</item>
+        <item>Returns the string representation of a specific subarray of the char array argument.</item>
+        <item>Returns the string representation of the double argument.</item>
+        <item>Returns the string representation of the float argument.</item>
+        <item>Returns the string representation of the int argument.</item>
+        <item>Returns the string representation of the long argument.</item>
+        <item>Returns the string representation of the Object argument.</item>
+    </string-array>
+
+
+    <string-array name="stringReturnTypes">
+        <item>char</item>
+        <item>int</item>
+        <item>int</item>
+        <item>String</item>
+        <item>boolean</item>
+        <item>boolean</item>
+        <item>static String</item>
+        <item>static String</item>
+        <item>boolean</item>
+        <item>boolean</item>
+        <item>boolean</item>
+        <item>byte[]</item>
+        <item>void</item>
+        <item>int</item>
+        <item>int</item>
+        <item>int</item>
+        <item>int</item>
+        <item>boolean</item>
+        <item>int</item>
+        <item>int</item>
+        <item>int</item>
+        <item>int</item>
+        <item>int</item>
+        <item>boolean</item>
+        <item>boolean</item>
+        <item>String</item>
+        <item>String</item>
+        <item>String</item>
+        <item>String</item>
+        <item>boolean</item>
+        <item>boolean</item>
+        <item>CharSequence</item>
+        <item>String</item>
+        <item>String</item>
+        <item>char[]</item>
+        <item>String</item>
+        <item>String</item>
+        <item>String</item>
+        <item>String</item>
+        <item>static String</item>
+        <item>static String</item>
+        <item>static String</item>
+        <item>static String</item>
+        <item>static String</item>
+        <item>static String</item>
+        <item>static String</item>
+        <item>static String</item>
+        <item>static String</item>
+    </string-array>
+
+</resources>

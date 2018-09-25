@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- This is a typed Array, the subtopics array holds references to the other arrays
+         When adding one add the String array and add a @array/ArrayName to the subtopics
+         array-->
+
+    <array name="subTopics">
+        <item>@array/sT0</item>
+        <item>@array/sT1</item>
+        <item>@array/sT2</item>
+        <item>@array/sT3</item>
+        <item>@array/sT4</item>
+
+    </array>
+
+    <string-array name="sT0">
+        <item>What is a Command?</item>
+    </string-array>
+
+    <string-array name="sT1">
+        <item>What are the two Types of Comments?</item>
+        <item>Single-Lined Comment</item>
+        <item>Multi-Lined Comment</item>
+    </string-array>
+
+    <string-array name="sT2">
+        <item>What are the different integer data types?</item>
+        <item>int</item>
+        <item>short</item>
+        <item>long</item>
+        <item>byte</item>
+    </string-array>
+
+    <string-array name="sT3">
+        <item>What are the two types of floating-point types?</item>
+        <item>float</item>
+        <item>double</item>
+    </string-array>
+
+    <string-array name="sT4">
+        <item>How to declare a variable</item>
+        <item>initializing a value</item>
+        <item>How to print a variable</item>
+    </string-array>
+
+</resources>
